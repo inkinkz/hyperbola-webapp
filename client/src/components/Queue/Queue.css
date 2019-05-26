@@ -1,0 +1,36 @@
+.queue-list {
+  list-style: none;
+  margin-left: 5%;
+  font-family: "Nunito", sans-serif;
+  color: #6e3596;
+  font-size: 1.5rem;
+  /* font-size: 16px; */
+  /* text-align: center; */
+}
+
+.queue-head {
+  font-family: "Nunito", sans-serif;
+  color: #6e3596;
+  font-size: 2.2rem;
+  margin: 1rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.total-queue {
+  font-family: "Nunito", sans-serif;
+  color: #6e3596;
+  font-size: 1.7rem;
+  margin: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.queue-status {
+  color: black;
+  font-size: 2rem;
+  float: right;
+  border-radius: 5px;
+  margin-right: 20%;
+  margin-top: 0.5rem;
+}

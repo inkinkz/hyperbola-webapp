@@ -1,0 +1,323 @@
+.sum-main-compo {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 10% 75% 15%;
+  padding: 10px;
+  height: 87vh;
+  position: relative;
+}
+
+.sum-text {
+  margin-top: 0rem;
+  margin-right: 2%;
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+
+  font-size: 2rem;
+  color: #6e3596;
+}
+
+.sum-middle {
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  width: 100%;
+  position: relative;
+}
+
+.sum-cancel-but {
+  display: block;
+  background: white;
+  /* box-shadow: 0px 4px 4px #ccc;
+  -webkit-box-shadow: 0px 4px 4px #ccc;
+  -moz-box-shadow: 0px 4px 4px #ccc; */
+  width: 65px;
+  outline: none;
+
+  /* margin-left: 60%; */
+  /* margin-top: 1rem; */
+  border-color: #ccc;
+  /* border-width: 1px; */
+  height: 20px;
+  font-family: "Nunito", sans-serif;
+  /* font-size: 15px; */
+  font-weight: bolder;
+  color: #f55265;
+  border-radius: 20px;
+  border-style: solid;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+
+  /* make it vertically buttom */
+  position: absolute;
+  top: 70%;
+  margin-left: 3%;
+  transform: translate(0, -50%);
+}
+
+.sum-cancel-but-div {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sum-select-pay-but-div {
+  width: 1000%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+}
+
+.sum-select-pay-but {
+  display: block;
+  background: rgba(102, 60, 145, 0.8);
+  box-shadow: 0px 4px 9px #ccc;
+  -webkit-box-shadow: 0px 4px 9px #ccc;
+  -moz-box-shadow: 0px 4px 9px #ccc;
+  width: 100%;
+
+  /* margin-left: 60%; */
+  /* margin-top: 1rem; */
+  border-width: 1px;
+  height: 35px;
+  /* font-family: "Paytone One", sans-serif; */
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+
+  /* make it vertically buttom */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+
+.sum-total {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+/* 
+.sum-total > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+} */
+
+.sum-total-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #92579b;
+}
+
+.sum-order-add-container {
+  background: #ffffff;
+  border: 0.34px solid #6e3596;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sum-add-ice {
+  background: white;
+  box-shadow: 0px 4px 4px #ccc;
+  -webkit-box-shadow: 0px 4px 4px #ccc;
+  -moz-box-shadow: 0px 4px 4px #ccc;
+  border-color: rgba(102, 60, 145, 0.8);
+  border-width: 1px;
+  /* font-family: "Paytone One", sans-serif; */
+  /* font-family: "Nunito", sans-serif; */
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgba(102, 60, 145, 0.8);
+  border-radius: 20px;
+  border-style: solid;
+  cursor: pointer;
+  text-align: center;
+
+  position: absolute;
+  width: 40%;
+  height: 24px;
+  margin-top: 10px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+
+.sum-order-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: scroll;
+  box-shadow: 0px 1px 2px #ccc inset;
+}
+
+.sum-each-order {
+  /* display: block; */
+  position: relative;
+  /* background-color: #92579b; */
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #573e5b;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.add-tab {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.sum-flavor-column {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.sum-center-text {
+  text-align: center;
+  font-size: 16px;
+}
+
+.sum-edit-but {
+  position: absolute;
+  display: block;
+  bottom: 5px;
+  right: 2px;
+
+  background: white;
+  box-shadow: 0px 4px 4px #ccc;
+  -webkit-box-shadow: 0px 4px 4px #ccc;
+  -moz-box-shadow: 0px 4px 4px #ccc;
+  width: 65px;
+  /* margin-left: 60%; */
+  /* margin-top: 1rem; */
+  border-color: rgba(102, 60, 145, 0.8);
+  border-width: 1px;
+  height: 22px;
+  /* font-family: "Paytone One", sans-serif; */
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: rgba(102, 60, 145, 0.8);
+  border-radius: 20px;
+  border-style: solid;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  margin: 5px;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-top: 200px;
+  margin-right: -50%;
+  transform: translate(-50%, 25%);
+  height: 1px;
+  width: 95%;
+  background-color: #adadad;
+}
+
+.each-but {
+  width: 100%;
+  position: relative;
+}
+
+.sum-reward-btn {
+  display: block;
+  background: rgba(102, 60, 145, 0.8);
+  box-shadow: 0px 4px 9px #ccc;
+  -webkit-box-shadow: 0px 4px 9px #ccc;
+  -moz-box-shadow: 0px 4px 9px #ccc;
+  width: 50%;
+  font-weight: bolder;
+
+  /* margin-left: 60%; */
+  /* margin-top: 1rem; */
+  border-width: 1px;
+  height: 25px;
+  font-family: "Nunito", sans-serif;
+  /* font-family: "Paytone One", sans-serif; */
+  font-size: 1rem;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+
+  /* make it vertically buttom */
+  position: absolute;
+  top: 65%;
+  right: 0;
+  /* left: 50%;
+  margin-right: -50%; */
+  transform: translate(0, -50%);
+}
+
+.paypal-button {
+  width: 50%;
+  float: right;
+  margin-left: 5%;
+  width: 170px;
+}
+
+.cash-button {
+  width: 46%;
+  /* display: block; */
+  background: rgba(102, 60, 145, 0.8);
+  box-shadow: 0px 4px 9px #ccc;
+  -webkit-box-shadow: 0px 4px 9px #ccc;
+  -moz-box-shadow: 0px 4px 9px #ccc;
+
+  border-width: 1px;
+  height: 25px;
+  font-family: "Nunito", sans-serif;
+
+  /* font-family: "Paytone One", sans-serif; */
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  /* padding: 0px; */
+  text-align: center;
+  float: left;
+  font-weight: bolder;
+
+  margin-left: 4%;
+}
+
+.reward-alert {
+  font-family: "Nunito", sans-serif;
+  color: #6e3596;
+  margin-left: 30%;
+  margin-top: 15px;
+  font-size: 18px;
+}

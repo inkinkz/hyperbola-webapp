@@ -1,0 +1,42 @@
+{
+  "name": "hyperbola-webapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server": "nodemon app.js",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev  && npm run build"
+  },
+  "engines": {
+    "node": "~10.14.2",
+    "npm": "~6.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "express": "~4.16.0",
+    "google-map-react": "^1.1.4",
+    "http-errors": "~1.6.2",
+    "http-proxy-middleware": "^0.19.1",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.10",
+    "pg": "^7.9.0",
+    "pg-pool": "^2.0.6",
+    "react-router": "^5.0.0",
+    "styled-components": "^4.2.0"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Hyperbola",
+  "description": ""
+}

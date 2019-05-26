@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Engineering",
+    "latitude": "13.736783",
+    "longitude": "100.534118"
+  },
+  {
+    "id": 2,
+    "name": "Arts",
+    "latitude": "13.739348",
+    "longitude": "100.534071"
+  },
+  {
+    "id": 3,
+    "name": "Phrakeaw",
+    "latitude": "13.735528",
+    "longitude": "100.531449"
+  }
+]

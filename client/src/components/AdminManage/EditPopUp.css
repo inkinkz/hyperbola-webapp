@@ -1,0 +1,67 @@
+.edit-popup-container {
+  position: fixed;
+  width: 70%;
+  height: 44%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+  font-family: "Nunito", "sans-serif";
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px grey;
+  z-index: 100;
+}
+
+.popup-heading {
+  color: #9b62c4;
+  color: #6e3596;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.status-button {
+  /* background: rgba(102, 60, 145, 0.8); */
+  background: white;
+  box-shadow: 0px 1px 5px #ccc;
+  width: 64%;
+  margin-left: 18%;
+  height: 30px;
+  margin-top: 3vh;
+  /* margin-top: 10px; */
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: #6e3596;
+  /* color: white; */
+  border-radius: 20px;
+  border-style: none;
+  /* border-color: #6e3596; */
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  outline: none;
+}
+
+.cancel-status-button {
+  background: white;
+  box-shadow: 0px 1px 5px #ccc;
+  width: 64%;
+  margin-left: 18%;
+  height: 30px;
+  margin-top: 3vh;
+  /* margin-top: 10px; */
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: rgba(102, 60, 145);
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  outline: none;
+}

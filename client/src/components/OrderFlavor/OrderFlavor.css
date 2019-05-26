@@ -1,0 +1,314 @@
+.header_text {
+  margin-top: 1rem;
+  margin-right: 5%;
+  margin-bottom: 0.2rem;
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #6e3596;
+}
+
+.header_text-small {
+  margin-top: 0.2rem;
+  margin-right: 5%;
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  color: #6e3596;
+}
+
+.container {
+  margin-left: 4%;
+  width: 92%;
+  height: 66vh;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 1px 4px #ccc inset;
+  overflow: auto;
+}
+
+.flavor-button-able {
+  background: rgba(102, 60, 145, 0.8);
+  box-shadow: 0px 4px 9px #ccc;
+  -webkit-box-shadow: 0px 4px 9px #ccc;
+  -moz-box-shadow: 0px 4px 9px #ccc;
+  width: 100%;
+  float: right;
+  margin-right: 5%;
+  margin-left: auto;
+  margin-top: 1rem;
+  height: 35px;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  padding: 0px;
+  text-align: center;
+  outline: none;
+}
+
+.flavor-button-disable {
+  background: #979797;
+  box-shadow: 0px 4px 9px #ccc;
+  -webkit-box-shadow: 0px 4px 9px #ccc;
+  -moz-box-shadow: 0px 4px 9px #ccc;
+  width: 100%;
+  float: right;
+  margin-right: 5%;
+  margin-left: auto;
+  margin-top: 1rem;
+  height: 35px;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  padding: 0px;
+  text-align: center;
+  outline: none;
+}
+
+/* scroll-flavor {
+  width: 110px;
+  height: 110px;
+  overflow: scroll;
+} */
+
+.space-flavor {
+  flex: 0.5;
+}
+
+.ff {
+  display: flex;
+}
+
+.big-flavor-text {
+  margin-left: 0px;
+  margin-top: 1rem;
+  font-family: "Nunito", sans-serif;
+  color: #6e3596;
+  text-align: center;
+  font-weight: 500;
+}
+.flavor-green-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.7rem;
+  color: #5e8c24;
+  text-align: center;
+}
+
+.flavor-yellow-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.6rem;
+  color: #cd9b19;
+  text-align: center;
+}
+
+.flavor-red-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.6rem;
+  color: #e4283d;
+  text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 70px;
+}
+
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 80px;
+}
+
+/* The radio-container */
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 5%;
+  margin-top: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #6e3596;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: right;
+  bottom: 0.5rem;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* When the radio button is checked, add a purple background */
+.radio-container input:checked ~ .checkmark {
+  background-color: rgba(102, 60, 145, 0.8);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+  top: 7px;
+  left: 6.8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+}
+
+.flavor-home-button {
+  display: block;
+  background: white;
+  box-shadow: 0px 4px 4px #ccc;
+  -webkit-box-shadow: 0px 4px 4px #ccc;
+  -moz-box-shadow: 0px 4px 4px #ccc;
+  border-color: #bfa1d2;
+  border-width: 1px;
+  height: 32px;
+  font-family: "Paytone One", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #bfa1d2;
+  border-radius: 20px;
+  border-style: solid;
+  padding: 0px;
+  text-align: center;
+  margin-left: 4%;
+  width: 92%;
+
+  /* make it horizontally buttom */
+  position: absolute;
+  bottom: 2vh;
+}
+
+.circle-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 5%;
+  margin-top: 1rem;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: right;
+  bottom: 1rem;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: #555;
+  border-radius: 50%;
+  float: right;
+  margin-right: 5%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-color: #979797;
+  border-radius: 50%;
+}
+
+.circle-question-mark {
+  position: absolute;
+  left: 6px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.flavor-popup-rectangle {
+  display: flex;
+  position: fixed;
+  width: 239px;
+  height: 54px;
+  right: 10px;
+  top: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.flavor-popup-text {
+  position: absolute;
+  width: 229px;
+  height: 47px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.6rem;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.326667px;
+  color: #979797;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Add animation (fade in the popup) */
+/* @-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */

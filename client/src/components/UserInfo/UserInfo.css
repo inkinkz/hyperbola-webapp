@@ -1,0 +1,198 @@
+.welcome-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #6e3596;
+}
+
+/* .history-button {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: rgba(102, 60, 145, 0.8);
+  box-shadow: 0px 4px 9px #ccc;
+  -webkit-box-shadow: 0px 4px 9px #ccc;
+  -moz-box-shadow: 0px 4px 9px #ccc;
+  width: 70%;
+  height: 35px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  bottom: 2vh;
+  position: absolute;
+  left: 1rem;
+} */
+
+.userinfo-history-button {
+  display: block;
+  background: white;
+  box-shadow: 0px 4px 4px #ccc;
+  -webkit-box-shadow: 0px 4px 4px #ccc;
+  -moz-box-shadow: 0px 4px 4px #ccc;
+  border-color: rgba(102, 60, 145, 0.8);
+  border-width: 1px;
+  height: 30px;
+  font-family: "Paytone One", sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: rgba(102, 60, 145, 0.8);
+  border-radius: 20px;
+  border-style: solid;
+  padding: 0px;
+  text-align: center;
+  margin-left: 4%;
+  width: 92%;
+
+  /* make it horizontally buttom */
+  position: absolute;
+  bottom: 8vh;
+}
+
+.userinfo-order-button {
+  display: block;
+  background: rgba(102, 60, 145, 0.8);
+  box-shadow: 0px 4px 4px #ccc;
+  -webkit-box-shadow: 0px 4px 4px #ccc;
+  -moz-box-shadow: 0px 4px 4px #ccc;
+  border-width: 1px;
+  height: 30px;
+  font-family: "Paytone One", sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  padding: 0px;
+  text-align: center;
+  margin-left: 4%;
+  width: 92%;
+
+  /* make it horizontally buttom */
+  position: absolute;
+  bottom: 2vh;
+}
+
+.userinfo-reward-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* margin-left: 15%; */
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  /* text-align: center; */
+  color: #6e3596;
+}
+
+.userinfo-reward-text-number {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #6e3596;
+}
+
+.space-userinfo {
+  flex: 0.2;
+}
+
+.userinfo-big-container {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  top: 50vh;
+}
+
+.userinfo-container {
+  display: grid;
+  /* margin-left: auto;
+  margin-right: auto; */
+  grid-template-columns: 150px 20px 50px 20px 20px;
+  /* left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); */
+}
+
+.userinfo-circle-container {
+  display: block;
+  position: relative;
+  margin-top: 1rem;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.userinfo-circle {
+  height: 20px;
+  width: 20px;
+  background-color: #555;
+  border-radius: 50%;
+  float: right;
+  margin-right: 5%;
+  position: absolute;
+  left: 0;
+  background-color: #979797;
+  border-radius: 50%;
+}
+
+.userinfo-circle-question-mark {
+  position: absolute;
+  left: 6px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.userinfo-popup-rectangle {
+  display: block;
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  top: 55vh;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.userinfo-popup-text {
+  width: 260px;
+  height: 47px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.6rem;
+  line-height: 20px;
+  letter-spacing: 0.326667px;
+  color: #979797;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.userinfo-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px;
+  height: 20px;
+  margin-top: 1rem;
+}
